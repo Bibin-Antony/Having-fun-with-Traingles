@@ -9,10 +9,14 @@ triCheckBtn.addEventListener("click", triangleCheck);
 
 
 function triangleCheck(){
+    if(firstAngle.value && secondAngle.value && thirdAngle.value > 0){
     var angleTotal = Number(firstAngle.value) + Number(secondAngle.value) + Number(thirdAngle.value);
     console.log(angleTotal);
     traingleAngle(angleTotal);
     return angleTotal;
+    }else{
+        outputBox.innerText = "Kindly enter value's greater than 0"
+    }
 }
 
 function traingleAngle(angleTotal){

@@ -33,44 +33,45 @@
     padding: 10px;
     border-radius: 2px;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 35vw;
+.containers{
+    width: 85vw;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 150px;
 }
-label{
+
+.containers h4{
+    padding: 10px;
+    padding-left: 0px;
+    font-size: 1.5rem;
+}
+/* .containers p{
     padding: 10px;
     font-size: 1.2rem;
-    font-weight: 550;
+    font-family: monospace;
 }
 
-input{
+.containers label{
+    font-size: 1rem;
     padding: 10px;
+    line-height: 20px;
+} */
+#output-box{
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
-input:hover{
-    color: bisque;
-    background-color: black;
-}
-
 button{
-    margin-top: 30px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 600;
+    cursor: pointer;
+    font-weight: 700;
 }
-
-
-#traingle-check-button:hover{
-    color: bisque;
+button:hover{
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    color: blanchedalmond;
     background-color: black;
-}
-
-.containers{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }

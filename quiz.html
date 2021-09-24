@@ -5,12 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylequiz.css">
     <title>Traingle Quiz?</title>
 </head>
 
 <body>
-    <div class="container">
+    <div class="nav-bar-holder">
+        <ul class="nav-bar">
+            <li><a href="./areaoftraingle.html">AREA</a></li>
+            <li><a href="./hypotenuse.html">HYPOTENUSE</a></li>
+            <li><a href="./index.html">IS TRAINGLE?</a></li>
+            <li><a href="./quiz.html">QUIZ</a></li>
+        </ul>
+    </div>
+    <div class="containers">
         <form id="quiz-form">
         <div class="firstquestion">
             <h4>Quiz on traingles</h4>
@@ -75,8 +83,9 @@
             <label><input name="question10" type="radio" value="45°">45°</label>
         </div>
         </form>
-        <button id="submit-btn">Submit Answer</button>
-        <p id="output-box"></p>
+        <center><p id="output-box"></p></center>
+        <center><button id="submit-btn">Submit Answer</button></center>
+        
     </div>
     <script src="quiz.js"></script>
 </body>
